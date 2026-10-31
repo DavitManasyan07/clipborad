@@ -1,0 +1,69 @@
+.clipshelf-content { padding: 18px; spacing: 12px; }
+.clipshelf-popup .popup-menu-content { border-radius: 20px; }
+.clipshelf-header { spacing: 6px; }
+.clipshelf-title { font-size: 19px; font-weight: 700; }
+.clipshelf-subtitle { font-size: 11px; margin-top: 4px; }
+.clipshelf-icon-button { padding: 8px; border-radius: 9px; }
+.clipshelf-search { border-radius: 11px; padding: 10px 12px; border-width: 1px; }
+.clipshelf-filters { spacing: 4px; padding-bottom: 2px; }
+.clipshelf-filter { font-size: 11px; font-weight: 600; border-radius: 8px; padding: 7px 5px; }
+.clipshelf-scroll { min-height: 180px; max-height: 390px; }
+.clipshelf-list { spacing: 5px; padding-right: 3px; }
+.clipshelf-row { border-radius: 11px; border: 1px solid transparent; }
+.clipshelf-select { padding: 10px 2px 10px 9px; border-radius: 10px; }
+.clipshelf-row-content { spacing: 10px; }
+.clipshelf-preview { width: 52px; height: 44px; border-radius: 8px; }
+.clipshelf-snippet { font-size: 12px; font-weight: 500; }
+.clipshelf-meta { font-size: 10px; padding-top: 5px; }
+.clipshelf-actions { spacing: 0; padding-right: 3px; }
+.clipshelf-actions .clipshelf-icon-button { padding: 7px 5px; }
+.clipshelf-actions .clipshelf-icon-button StIcon { icon-size: 14px; }
+.clipshelf-pin StIcon { opacity: 140; }
+.clipshelf-footer { border-top-width: 1px; padding-top: 11px; spacing: 8px; }
+.clipshelf-clear { font-size: 11px; padding: 6px 8px; border-radius: 7px; }
+.clipshelf-keyboard-hint { font-size: 10px; text-align: center; padding-top: 2px; }
+.clipshelf-empty { padding: 30px 8px; spacing: 12px; }
+.clipshelf-empty-icon { margin-bottom: 5px; }
+.clipshelf-empty-title { font-size: 15px; font-weight: 600; text-align: center; }
+.clipshelf-empty-detail { font-size: 11px; text-align: center; }
+.clipshelf-notice { padding: 10px; border-radius: 9px; font-size: 11px; }
+.clipshelf-unavailable .clipshelf-preview { opacity: 100; }
+.clipshelf-paused > StIcon { opacity: 130; }
+.clipshelf-confirm-detail { margin-top: 12px; }
+.clipshelf-dark .popup-menu-content { background-color: #242329; color: #f5f4f7; border: 1px solid #49464e; }
+.clipshelf-dark .clipshelf-subtitle, .clipshelf-dark .clipshelf-meta,
+.clipshelf-dark .clipshelf-empty-detail, .clipshelf-dark .clipshelf-keyboard-hint { color: #b4b0be; }
+.clipshelf-dark .clipshelf-search { background-color: #323037; color: #faf9fc; border-color: #48454f; }
+.clipshelf-dark .clipshelf-search:focus { border-color: #cba1ef; }
+.clipshelf-dark .clipshelf-filter { color: #c8c3cf; }
+.clipshelf-dark .clipshelf-filter:checked { background-color: #58436c; color: #f4e5ff; }
+.clipshelf-dark .clipshelf-row { background-color: #2e2c33; }
+.clipshelf-dark .clipshelf-row:hover, .clipshelf-dark .clipshelf-row:selected { background-color: #3c3745; }
+.clipshelf-dark .clipshelf-row:selected { border-color: #cba1ef; }
+.clipshelf-dark .clipshelf-preview { background-color: #3a3641; color: #d6b7ef; }
+.clipshelf-dark .clipshelf-icon-button:hover, .clipshelf-dark .clipshelf-icon-button:focus,
+.clipshelf-dark .clipshelf-clear:hover, .clipshelf-dark .clipshelf-clear:focus,
+.clipshelf-dark .clipshelf-filter:hover, .clipshelf-dark .clipshelf-filter:focus { background-color: #49434f; color: #ffffff; }
+.clipshelf-dark .clipshelf-select:focus { box-shadow: inset 0 0 0 1px #cba1ef; }
+.clipshelf-dark .clipshelf-pinned { color: #dab8f5; }
+.clipshelf-dark .clipshelf-footer { border-color: #45414b; }
+.clipshelf-dark .clipshelf-clear { color: #d5b6ed; }
+.clipshelf-dark .clipshelf-notice { background-color: #4a3b25; color: #f6d496; }
+.clipshelf-light .popup-menu-content { background-color: #faf9fc; color: #28232e; border: 1px solid #d8d3df; }
+.clipshelf-light .clipshelf-subtitle, .clipshelf-light .clipshelf-meta,
+.clipshelf-light .clipshelf-empty-detail, .clipshelf-light .clipshelf-keyboard-hint { color: #746b80; }
+.clipshelf-light .clipshelf-search { background-color: #efedf3; color: #28232e; border-color: #dcd6e3; }
+.clipshelf-light .clipshelf-search:focus { border-color: #8053a7; }
+.clipshelf-light .clipshelf-filter { color: #71657b; }
+.clipshelf-light .clipshelf-filter:checked { background-color: #e9dcf5; color: #65358e; }
+.clipshelf-light .clipshelf-row { background-color: #f0edf4; }
+.clipshelf-light .clipshelf-row:hover, .clipshelf-light .clipshelf-row:selected { background-color: #e5dced; }
+.clipshelf-light .clipshelf-row:selected { border-color: #8053a7; }
+.clipshelf-light .clipshelf-preview { background-color: #e7deef; color: #8053a7; }
+.clipshelf-light .clipshelf-icon-button:hover, .clipshelf-light .clipshelf-icon-button:focus,
+.clipshelf-light .clipshelf-clear:hover, .clipshelf-light .clipshelf-clear:focus,
+.clipshelf-light .clipshelf-filter:hover, .clipshelf-light .clipshelf-filter:focus { background-color: #dfd6e8; color: #4d286e; }
+.clipshelf-light .clipshelf-select:focus { box-shadow: inset 0 0 0 1px #8053a7; }
+.clipshelf-light .clipshelf-pinned, .clipshelf-light .clipshelf-clear { color: #724296; }
+.clipshelf-light .clipshelf-footer { border-color: #dfd9e5; }
+.clipshelf-light .clipshelf-notice { background-color: #f9eccf; color: #775119; }

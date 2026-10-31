@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipshelf" path="/org/gnome/shell/extensions/clipshelf/">
+    <key name="max-items" type="i">
+      <default>100</default>
+      <range min="10" max="1000"/>
+      <summary>Maximum number of unpinned history entries</summary>
+      <description>Pinned entries survive ordinary history cleanup.</description>
+    </key>
+    <key name="max-item-mb" type="i">
+      <default>16</default>
+      <range min="1" max="128"/>
+      <summary>Maximum size of one clipboard entry in MiB</summary>
+      <description>The limit includes all retained MIME representations.</description>
+    </key>
+    <key name="max-storage-mb" type="i">
+      <default>128</default>
+      <range min="16" max="2048"/>
+      <summary>Maximum clipboard payload storage in MiB</summary>
+      <description>Old unpinned entries are removed first. Pinned entries are never silently removed.</description>
+    </key>
+    <key name="paused" type="b">
+      <default>false</default>
+      <summary>Pause clipboard recording</summary>
+      <description>Existing entries remain available while recording is paused.</description>
+    </key>
+    <key name="toggle-clipshelf" type="as">
+      <default>['&lt;Super&gt;&lt;Shift&gt;v']</default>
+      <summary>Keyboard shortcut to open ClipShelf</summary>
+    </key>
+  </schema>
+</schemalist>

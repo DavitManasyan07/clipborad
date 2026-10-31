@@ -1,0 +1,6 @@
+schemas/gschemas.compiled
+native/*.so
+native/*.typelib
+.build-deps/
+build/
+*.zip

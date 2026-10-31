@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "assertions": 62,
+  "setup": [],
+  "checks": [
+    "native extension enable / panel creation",
+    "Wayland Mutter selection capture / Unicode / HTML / search / real arrow+Enter+Escape keys / restore / no loop",
+    "deduplication / pause / resume",
+    "real file references / multi-file copy MIME / cut normalization",
+    "binary PNG capture / thumbnail rendering / MIME restore",
+    "external GTK Wayland provider closes / new client pastes exact text + HTML + PNG / image decode",
+    "external GTK file MIME provider / provider exit / consumer reads copy + URI-list formats",
+    "actual GTK4/libadwaita preferences page creation / installed settings binding",
+    "text / image / files / pinned filters in actual popup",
+    "disable cleanup / enable / persisted history / continued recording",
+    "simulated lock-screen session-mode disable / unlock re-enable"
+  ]
+}

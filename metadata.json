@@ -1,0 +1,8 @@
+{
+  "uuid": "clipshelf@local.davit",
+  "name": "ClipShelf",
+  "description": "A local clipboard shelf for text, images, rich text and copied files.",
+  "version": 1,
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.clipshelf"
+}

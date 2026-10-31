@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<repository version="1.2"
+ xmlns="http://www.gtk.org/introspection/core/1.0"
+ xmlns:c="http://www.gtk.org/introspection/c/1.0"
+ xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+ <include name="Gio" version="2.0"/>
+ <include name="Meta" version="14"/>
+ <namespace name="ClipShelf" version="1.0" shared-library="libclipshelf-1.so"
+   c:identifier-prefixes="ClipShelf" c:symbol-prefixes="clip_shelf">
+  <class name="SelectionSource" c:type="ClipShelfSelectionSource"
+    parent="Meta.SelectionSource" glib:type-name="ClipShelfSelectionSource"
+    glib:get-type="clip_shelf_selection_source_get_type">
+   <constructor name="new" c:identifier="clip_shelf_selection_source_new">
+    <return-value transfer-ownership="full">
+     <type name="SelectionSource" c:type="ClipShelfSelectionSource*"/>
+    </return-value>
+   </constructor>
+   <method name="add" c:identifier="clip_shelf_selection_source_add">
+    <return-value transfer-ownership="none"><type name="none" c:type="void"/></return-value>
+    <parameters>
+     <instance-parameter name="self" transfer-ownership="none">
+      <type name="SelectionSource" c:type="ClipShelfSelectionSource*"/>
+     </instance-parameter>
+     <parameter name="mimetype" transfer-ownership="none"><type name="utf8" c:type="const char*"/></parameter>
+     <parameter name="bytes" transfer-ownership="none"><type name="GLib.Bytes" c:type="GBytes*"/></parameter>
+    </parameters>
+   </method>
+  </class>
+ </namespace>
+</repository>
